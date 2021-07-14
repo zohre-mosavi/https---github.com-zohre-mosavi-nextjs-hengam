@@ -42,7 +42,7 @@ export default function Header() {
                   .top-header{
                     display:flex;
                     align-items:center;
-                    width:60%;
+                    width:59.5%;
                     height:40%;
                     justify-content:space-between;
                   }

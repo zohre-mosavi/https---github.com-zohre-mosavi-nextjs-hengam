@@ -2,6 +2,7 @@ import Header from "../header";
 import Footer from "../footer";
 import Thumbup from '../../public/image/icon-Thumbup.svg'
 import Thumbdown from '../../public/image/icon-Thumbdown.svg'
+import changepass from '../../public/image/form.jpg'
 
 export default function change_pass() {
   return (
@@ -38,7 +39,18 @@ export default function change_pass() {
               <li>رمز عبور فعلی و رمز عبور جدید را وارد کرده و بر روی دکمه ی تایید کلیک کنید.</li>
             </ol>
             
-            <div></div>
+            <div className="form-editpass">
+            <img src={changepass} />
+              {/* <span>اطلاعات حساب</span>
+              <div className="form">
+                <img src={Thumbup}/>
+                <div>
+                  <input type="text"/>
+                  <input type="text"/>
+                </div>
+                <button>ویرایش رمز عبور</button>
+              </div> */}
+            </div>
 
             <h1>هنوز قادر به ویرایش رمز عبور خود نیستید؟</h1>
             <span>اگر ایمیل بازنشانی رمز عبور را دریافت نکردید، یا قادر به بازنشانی رمز عبور خود نیستید یا نمیتوانید وارد سیستم شوید، لطفا از طریق ایمیل با تیم پشتیبانی ما تماس بگیرید و ما تمام تلاش خود را برای کمک به شما انجام خواهید داد. </span>
@@ -69,6 +81,7 @@ export default function change_pass() {
                 flex-direction:column;
                 width:786px;
                 height:100%; 
+                margin:20px;
             }
 
             .card {
@@ -141,6 +154,21 @@ export default function change_pass() {
                 justify-content:space-between;
                 align-items:center;
               }
+
+              .form-editpass img{
+                width: 70%;
+              }
+              // .form{
+              //   width:70%;
+              //   height:120px;
+              //   border-top:1px solid #dcdce4;
+              //   border-right:1px solid #dcdce4;
+              //   border-radius:8px;
+              //   padding:20px;
+              //   margin-top:20px;
+              //   display:flex;
+              //   justify-content:space-between;
+              // }
 
               .thumbup-down{
                 width:60px;
