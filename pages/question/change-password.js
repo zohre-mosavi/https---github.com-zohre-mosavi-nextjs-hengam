@@ -132,6 +132,7 @@ export default function change_pass() {
                 justify-content:center;
                 align-items:center;
                 padding:20px;
+                justify-content: space-evenly;
               }
 
               .box-like{
@@ -145,6 +146,7 @@ export default function change_pass() {
                 width:60px;
                 height:40px;
                 border-radius:8px;
+                display: flex;
                 justify-content:center;
                 align-items:center;
               }
